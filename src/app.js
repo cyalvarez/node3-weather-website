@@ -109,5 +109,5 @@ app.get('*', (req, res) => {
 //inicar el servidor
 app.listen(port, () => {
 
-    console.log('server is up port '+port)
+    console.log('server is up port  '+port)
 })
