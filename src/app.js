@@ -34,6 +34,13 @@ app.get('', (req, res) => {
     })
 })
 
+app.get('/about', (req, res) => {
+    res.render('about', {
+        helpText: 'Help',
+        title: 'Help',
+        name: 'XXX'
+    })
+})
 
 app.get('/weather', (req, res) => {
     if (!req.query.address) {
